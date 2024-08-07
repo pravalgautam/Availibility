@@ -11,7 +11,8 @@ import SwiftUI
 struct AvailabilityApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AddAvailabilityView()
+          //  ContentView()
         }
     }
 }

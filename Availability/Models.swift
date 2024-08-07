@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct TimeSlot: Identifiable {
+    let id = UUID()
+    var from: Date
+    var to: Date
+ 
+}

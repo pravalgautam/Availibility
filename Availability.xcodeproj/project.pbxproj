@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		40B05F342C6216C400C2A05E /* AvailabilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B05F332C6216C400C2A05E /* AvailabilityApp.swift */; };
-		40B05F362C6216C400C2A05E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B05F352C6216C400C2A05E /* ContentView.swift */; };
+		40B05F362C6216C400C2A05E /*  AddAvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B05F352C6216C400C2A05E /*  AddAvailabilityView.swift */; };
 		40B05F382C6216C700C2A05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B05F372C6216C700C2A05E /* Assets.xcassets */; };
 		40B05F3B2C6216C700C2A05E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B05F3A2C6216C700C2A05E /* Preview Assets.xcassets */; };
+		40B05F422C621C8D00C2A05E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B05F412C621C8D00C2A05E /* Extensions.swift */; };
+		40B05F442C62493100C2A05E /* AvailabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B05F432C62493100C2A05E /* AvailabilityManager.swift */; };
+		40B05F482C62AB9E00C2A05E /* TimeSlotsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B05F472C62AB9E00C2A05E /* TimeSlotsListView.swift */; };
+		40B05F4A2C62B51B00C2A05E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B05F492C62B51B00C2A05E /* Models.swift */; };
+		40B05F4C2C62EEFA00C2A05E /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B05F4B2C62EEFA00C2A05E /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40B05F302C6216C400C2A05E /* Availability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Availability.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B05F332C6216C400C2A05E /* AvailabilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityApp.swift; sourceTree = "<group>"; };
-		40B05F352C6216C400C2A05E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40B05F352C6216C400C2A05E /*  AddAvailabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " AddAvailabilityView.swift"; sourceTree = "<group>"; };
 		40B05F372C6216C700C2A05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40B05F3A2C6216C700C2A05E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40B05F412C621C8D00C2A05E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		40B05F432C62493100C2A05E /* AvailabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityManager.swift; sourceTree = "<group>"; };
+		40B05F472C62AB9E00C2A05E /* TimeSlotsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotsListView.swift; sourceTree = "<group>"; };
+		40B05F492C62B51B00C2A05E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		40B05F4B2C62EEFA00C2A05E /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				40B05F332C6216C400C2A05E /* AvailabilityApp.swift */,
-				40B05F352C6216C400C2A05E /* ContentView.swift */,
+				40B05F352C6216C400C2A05E /*  AddAvailabilityView.swift */,
+				40B05F4B2C62EEFA00C2A05E /* ToastView.swift */,
+				40B05F472C62AB9E00C2A05E /* TimeSlotsListView.swift */,
+				40B05F432C62493100C2A05E /* AvailabilityManager.swift */,
+				40B05F412C621C8D00C2A05E /* Extensions.swift */,
+				40B05F492C62B51B00C2A05E /* Models.swift */,
 				40B05F372C6216C700C2A05E /* Assets.xcassets */,
 				40B05F392C6216C700C2A05E /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B05F362C6216C400C2A05E /* ContentView.swift in Sources */,
+				40B05F4C2C62EEFA00C2A05E /* ToastView.swift in Sources */,
+				40B05F362C6216C400C2A05E /*  AddAvailabilityView.swift in Sources */,
+				40B05F422C621C8D00C2A05E /* Extensions.swift in Sources */,
+				40B05F482C62AB9E00C2A05E /* TimeSlotsListView.swift in Sources */,
+				40B05F442C62493100C2A05E /* AvailabilityManager.swift in Sources */,
 				40B05F342C6216C400C2A05E /* AvailabilityApp.swift in Sources */,
+				40B05F4A2C62B51B00C2A05E /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
